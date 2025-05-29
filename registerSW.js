@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/VistaApp/sw.js', { scope: '/VistaApp/' })})}
